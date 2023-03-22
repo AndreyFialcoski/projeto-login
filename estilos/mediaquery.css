@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*Config Tablet*/
+
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     body{
@@ -8,6 +10,7 @@
 
     #login{
         width: 80vw;
+        height: 320px;
     }
 
     #imagem{
@@ -26,6 +29,8 @@
     }
 }
 
+/* Config Desktop*/
+
 @media screen and (min-width: 992px) {
 
     body{
@@ -34,6 +39,7 @@
     
     #login{
         width: 950px;
+        height: 350px;
     }
 
     #imagem{
